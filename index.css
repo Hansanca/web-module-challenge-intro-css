@@ -1,11 +1,33 @@
 
+h1 {
+    font-family: Chelsea Market;
+}
 
-#nav {
-   
-    background-color: #FF764E, #5ED3EB, #FFCD69;
+nav {
+    width: 75%;
+    height: 10vh;
+    top: 0;
+    bottom: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav1 {
+    background-color: #FF764E
+}
+
+.nav2 {
+    background-color: #5ED3EB
+
+}
+
+.nav3 {
+    background-color: #FFCD69
 }
 
 img {
+    margin-right: auto;
     height: 300px;
     width: fit-content;
     
@@ -15,11 +37,14 @@ h1 {
     font
 }
 
-#welcome {
-    font-family: Roboto Mono ;
-    color: blue;
+.f1 {
+    background-color: #FF764E;
 }
 
-* {
-    font-family: Chelsea Market;
+.f2 {
+    background-color: #5ED3EB
+}
+
+.f3 {
+    background-color: #FFCD69;
 }
